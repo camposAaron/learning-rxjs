@@ -13,10 +13,10 @@ const keyupCode$ = keyup$.pipe(
 );
 
 const keyupPluck$ = keyup$.pipe(
-    pluck('target','baseURI')
+    pluck('target')
 );
 
 
 keyup$.subscribe(console.log)
-keyupCode$.subscribe( code => console.log('map', code));
-keyupPluck$.subscribe( uri => console.log('pluck', uri));
+// keyupCode$.subscribe( code => console.log('map', code));
+// keyupPluck$.subscribe( uri => console.log('pluck', uri));
