@@ -14,7 +14,7 @@ this command will download all modules or packages in order to execute the proje
 npm start
 ```
 
-## How to change the PORT number?
+## How to change PORT number?
 By default, the port number is 8081, if you want to set your own port number, you need to change 'start' script on package.json
 
 ```
