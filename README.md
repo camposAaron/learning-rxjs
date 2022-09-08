@@ -5,7 +5,7 @@
 ```
 npm install
 ```
-this command will download all modules or packages in order to execute the project.
+ Download all necesaries packages in order to execute the project.
 
 
 * Once finished, execute the project with
